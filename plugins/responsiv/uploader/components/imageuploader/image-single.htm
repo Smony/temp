@@ -1,0 +1,7 @@
+{% if image %}
+    <img
+        src="{{ __SELF__.getThumb }}"
+        style="{{ __SELF__.getCssSize }}" />
+{% else %}
+    <p class="placeholder">{{ __SELF__.placeholderText }}</p>
+{% endif %}

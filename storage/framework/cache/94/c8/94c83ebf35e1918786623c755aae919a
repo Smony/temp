@@ -1,0 +1,37 @@
+1454500636s:1354:"a:6:{s:5:"mtime";i:1454497307;s:7:"content";s:600:"{# Renders a menu with any child static pages #}
+
+{% set parentOrSelf = page.parent ?: page %}
+{% set childPages = parentOrSelf.children %}
+
+<ul>
+    <li class="head-link {{ page.url == parentOrSelf.url ? 'active' }}">
+        <a href="{{ parentOrSelf.url|app }}">
+            {{ parentOrSelf.title }}
+        </a>
+    </li>
+    {% for childPage in childPages if not childPage.navigation_hidden %}
+        <li class="{{ page.url == childPage.url ? 'active' }}">
+            <a href="{{ childPage.url|app }}">
+                {{ childPage.title }}
+            </a>
+        </li>
+    {% endfor %}
+</ul>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:600:"{# Renders a menu with any child static pages #}
+
+{% set parentOrSelf = page.parent ?: page %}
+{% set childPages = parentOrSelf.children %}
+
+<ul>
+    <li class="head-link {{ page.url == parentOrSelf.url ? 'active' }}">
+        <a href="{{ parentOrSelf.url|app }}">
+            {{ parentOrSelf.title }}
+        </a>
+    </li>
+    {% for childPage in childPages if not childPage.navigation_hidden %}
+        <li class="{{ page.url == childPage.url ? 'active' }}">
+            <a href="{{ childPage.url|app }}">
+                {{ childPage.title }}
+            </a>
+        </li>
+    {% endfor %}
+</ul>";}";

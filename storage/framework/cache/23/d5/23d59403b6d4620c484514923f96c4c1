@@ -1,0 +1,48 @@
+1455790183s:1972:"a:6:{s:5:"mtime";i:1455788968;s:7:"content";s:911:"==
+<!--
+
+<div class="row NEWSLETTERSIGN-UP" style="margin-right: 0px;  margin-left: 0px; border: 0;">
+
+    <form method="POST" action="">
+
+        <div class="col-xs-hidden col-lg-2" > </div>
+        <div class="col-xs-12 col-lg-3" style="padding-top: 15px;">
+            <p class="NEWSLETTER"> NEWSLETTER <span class="SIGN-UP"> SIGN-UP </span> </p>
+        </div>
+        <div class="col-xs-12 col-lg-3"  style="padding-top: 8px; outline: none;">
+            <input type="text" name="email" class="form-control NEWSLETTER_form_control" placeholder="Enter your E-mail..." autocomplete="off">
+        </div>
+        <div class="col-xs-12 col-lg-2" style="padding-top: 15px;">
+            <a href="#" id="NEWSLETTER_LINK"><span>&nbsp; &nbsp; </span>SUBSCRIBE<span>&nbsp; &nbsp; &nbsp;</span></a>
+
+        </div>
+        <div class="col-xs-hidden col-lg-2"> </div>
+
+    </form>
+
+</div>
+
+-->";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:907:"<!--
+
+<div class="row NEWSLETTERSIGN-UP" style="margin-right: 0px;  margin-left: 0px; border: 0;">
+
+    <form method="POST" action="">
+
+        <div class="col-xs-hidden col-lg-2" > </div>
+        <div class="col-xs-12 col-lg-3" style="padding-top: 15px;">
+            <p class="NEWSLETTER"> NEWSLETTER <span class="SIGN-UP"> SIGN-UP </span> </p>
+        </div>
+        <div class="col-xs-12 col-lg-3"  style="padding-top: 8px; outline: none;">
+            <input type="text" name="email" class="form-control NEWSLETTER_form_control" placeholder="Enter your E-mail..." autocomplete="off">
+        </div>
+        <div class="col-xs-12 col-lg-2" style="padding-top: 15px;">
+            <a href="#" id="NEWSLETTER_LINK"><span>&nbsp; &nbsp; </span>SUBSCRIBE<span>&nbsp; &nbsp; &nbsp;</span></a>
+
+        </div>
+        <div class="col-xs-hidden col-lg-2"> </div>
+
+    </form>
+
+</div>
+
+-->";}";

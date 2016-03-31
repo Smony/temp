@@ -1,0 +1,15 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    coffee_cups:
+          label: Coffee cups
+    projects:
+          label: Projects
+    working_days:
+          label: Working days
+    clients:
+          label: Clients
+    created_at:
+        label: Date create

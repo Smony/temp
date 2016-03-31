@@ -1,0 +1,80 @@
+1455612166s:1950:"a:6:{s:5:"mtime";i:1454587537;s:7:"content";s:865:"title = "Home"
+url = "/"
+layout = "default"
+is_hidden = 0
+meta_title = "ewrewterter"
+meta_description = 234234234
+
+[session]
+security = "all"
+redirect = "home"
+==
+<div class="jumbotron">
+    <div class="container">
+
+        {% partial "navigation" %}
+
+        {% content "welcome.htm" %}
+    </div>
+</div>
+
+<div class="container">
+    <ul class="list-inline">
+        <li><a href="{{ 'account'|page }}">account</a></li>
+        <li>{% if user %}
+        <p>Hello {{ user.name }}</p>
+        {% else %}
+        <p>Nobody is logged in</p>
+        {% endif %}</li>
+        <li>{% if user %}<a data-request="onLogout" data-request-data="redirect: '/'">Sign out</a>{% endif %}</li>
+        
+    </ul>
+
+
+
+    <div class="page-header">
+        <h2>Overview <small>Basic concepts</small></h2>
+    </div>
+
+    <hr />
+
+
+
+
+
+
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:7:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"meta_title";s:11:"ewrewterter";s:16:"meta_description";s:9:"234234234";s:10:"components";a:1:{s:7:"session";a:2:{s:8:"security";s:3:"all";s:8:"redirect";s:4:"home";}}}s:4:"code";N;s:6:"markup";s:691:"<div class="jumbotron">
+    <div class="container">
+
+        {% partial "navigation" %}
+
+        {% content "welcome.htm" %}
+    </div>
+</div>
+
+<div class="container">
+    <ul class="list-inline">
+        <li><a href="{{ 'account'|page }}">account</a></li>
+        <li>{% if user %}
+        <p>Hello {{ user.name }}</p>
+        {% else %}
+        <p>Nobody is logged in</p>
+        {% endif %}</li>
+        <li>{% if user %}<a data-request="onLogout" data-request-data="redirect: '/'">Sign out</a>{% endif %}</li>
+        
+    </ul>
+
+
+
+    <div class="page-header">
+        <h2>Overview <small>Basic concepts</small></h2>
+    </div>
+
+    <hr />
+
+
+
+
+
+
+</div>";}";

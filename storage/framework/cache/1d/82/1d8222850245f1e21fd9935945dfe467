@@ -1,0 +1,44 @@
+1459425338s:1716:"a:6:{s:5:"mtime";i:1458208438;s:7:"content";s:754:"title = "Page not found (404)"
+url = "/404"
+layout = "default"
+is_hidden = 0
+meta_title = 123
+meta_description = 1234
+==
+<div class="container">
+        <div class="row" style="margin-left: 0px; margin-right: 0px; background-color: #eeeeee;">
+			<img class="bckg_image" src="{{ 'assets/404/img/bg_img.png'|theme }}" alt=" ">
+		</div>
+		
+		<div class="row" style="margin-left: 0px; margin-right: 0px;">
+			<br>
+			<p class="NOT_FOUND"><span class="PAGE">PAGE</span> NOT FOUND</p>
+			<p class="Sorry">Sorry, the page you requested could not be found.</p>
+			<p class="error_code">404</p>
+		</div>
+		
+		<div class="row" style="margin-left: 0px; margin-right: 0px;">
+			<p>
+				<a href="{{ '/' }}" class="btn_bar">HOMEPAGE</a>
+			</p>
+		</div>
+	<br />
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:7:{s:5:"title";s:20:"Page not found (404)";s:3:"url";s:4:"/404";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"meta_title";s:3:"123";s:16:"meta_description";s:4:"1234";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:633:"<div class="container">
+        <div class="row" style="margin-left: 0px; margin-right: 0px; background-color: #eeeeee;">
+			<img class="bckg_image" src="{{ 'assets/404/img/bg_img.png'|theme }}" alt=" ">
+		</div>
+		
+		<div class="row" style="margin-left: 0px; margin-right: 0px;">
+			<br>
+			<p class="NOT_FOUND"><span class="PAGE">PAGE</span> NOT FOUND</p>
+			<p class="Sorry">Sorry, the page you requested could not be found.</p>
+			<p class="error_code">404</p>
+		</div>
+		
+		<div class="row" style="margin-left: 0px; margin-right: 0px;">
+			<p>
+				<a href="{{ '/' }}" class="btn_bar">HOMEPAGE</a>
+			</p>
+		</div>
+	<br />
+</div>";}";

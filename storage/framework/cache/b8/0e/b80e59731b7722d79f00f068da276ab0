@@ -1,0 +1,85 @@
+1456767724s:2357:"a:6:{s:5:"mtime";i:1456500860;s:7:"content";s:1034:"title = "Account"
+url = "/account"
+layout = "admin"
+is_hidden = 0
+
+[account]
+redirect = "account"
+paramCode = "code"
+
+[session]
+security = "all"
+redirect = "s"
+
+[imageUploader]
+placeholderText = "Click or drag images to upload"
+maxSize = 5
+fileTypes = ".gif,.jpg,.jpeg,.png"
+previewWidth = 100
+previewHeight = 100
+previewMode = "auto"
+previewFluid = 0
+==
+<?php
+function onInit()
+{
+    //$this->imageUploader->bindModel('files', Project::find(1));
+    //new Project;
+    $this->imageUploader->bindModel('photoTest',new \Rainlab\User\Models\User);
+
+
+    //var_dump($this->page);
+
+//Auth::user->id
+//echo '<pre>';
+    //print_r(Auth::user->id);
+       // echo '</pre>';
+//die();
+
+}
+?>
+==
+<div class="conteiner">
+    <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10 ">
+                
+                {% component 'account' %}
+            
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+</div>
+
+{% framework extras %}
+{% scripts %}";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:7:"Account";s:3:"url";s:8:"/account";s:6:"layout";s:5:"admin";s:9:"is_hidden";s:1:"0";s:10:"components";a:3:{s:7:"account";a:2:{s:8:"redirect";s:7:"account";s:9:"paramCode";s:4:"code";}s:7:"session";a:2:{s:8:"security";s:3:"all";s:8:"redirect";s:1:"s";}s:13:"imageUploader";a:7:{s:15:"placeholderText";s:30:"Click or drag images to upload";s:7:"maxSize";s:1:"5";s:9:"fileTypes";s:20:".gif,.jpg,.jpeg,.png";s:12:"previewWidth";s:3:"100";s:13:"previewHeight";s:3:"100";s:11:"previewMode";s:4:"auto";s:12:"previewFluid";s:1:"0";}}}s:4:"code";s:336:"
+function onInit()
+{
+    //$this->imageUploader->bindModel('files', Project::find(1));
+    //new Project;
+    $this->imageUploader->bindModel('photoTest',new \Rainlab\User\Models\User);
+
+
+    //var_dump($this->page);
+
+//Auth::user->id
+//echo '<pre>';
+    //print_r(Auth::user->id);
+       // echo '</pre>';
+//die();
+
+}
+";s:6:"markup";s:308:"<div class="conteiner">
+    <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10 ">
+                
+                {% component 'account' %}
+            
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+</div>
+
+{% framework extras %}
+{% scripts %}";}";

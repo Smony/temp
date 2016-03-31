@@ -1,0 +1,34 @@
+1456767724s:1060:"a:6:{s:5:"mtime";i:1456500558;s:7:"content";s:413:"title = "Home"
+url = "/"
+layout = "default"
+description = "Description text"
+is_hidden = 0
+
+[work]
+
+[homeCoffee]
+
+[item]
+
+[home]
+
+[carousel]
+id = 1
+==
+{% component 'carousel' %}
+
+{% component 'work' %}          <!--INCLUDE WORK ITEMS -->
+
+{% component 'item' %}          <!--INCLUDE IF YOU ITEMS -->
+
+{% component 'homeCoffee' %}    <!-- INCLUDE COFFEE ITEMS -->
+
+{% content "plan.htm" %}";s:7:"viewBag";a:0:{}s:8:"settings";a:6:{s:5:"title";s:4:"Home";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:11:"description";s:16:"Description text";s:9:"is_hidden";s:1:"0";s:10:"components";a:5:{s:4:"work";a:0:{}s:10:"homeCoffee";a:0:{}s:4:"item";a:0:{}s:4:"home";a:0:{}s:8:"carousel";a:1:{s:2:"id";s:1:"1";}}}s:4:"code";N;s:6:"markup";s:245:"{% component 'carousel' %}
+
+{% component 'work' %}          <!--INCLUDE WORK ITEMS -->
+
+{% component 'item' %}          <!--INCLUDE IF YOU ITEMS -->
+
+{% component 'homeCoffee' %}    <!-- INCLUDE COFFEE ITEMS -->
+
+{% content "plan.htm" %}";}";

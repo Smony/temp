@@ -1,0 +1,4 @@
+1.0.1:
+    - First version of Exify
+1.0.2:
+    - Makes sure the Efix data is iterable

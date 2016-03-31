@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Coffee
+
+# Model Form Field configuration
+form: $/smony/home/models/coffee/fields.yaml
+
+# Model Class name
+modelClass: Smony\Home\Models\Coffee
+
+# Default redirect location
+defaultRedirect: smony/home/coffee
+
+# Create page
+create:
+    title: Create Coffee
+    redirect: smony/home/coffee/update/:id
+    redirectClose: smony/home/coffee
+
+# Update page
+update:
+    title: Edit Coffee
+    redirect: smony/home/coffee
+    redirectClose: smony/home/coffee
+
+# Preview page
+preview:
+    title: Preview Coffee

@@ -1,0 +1,18 @@
+1.0.1: First version of home
+1.0.2:
+  - Run table migrations
+  - create_themes_table.php
+1.0.3:
+  - Create coffees table
+  - create_coffees_table.php
+1.0.4:
+  - Create works table
+  - create_works_table.php
+1.1.0:
+  - Create Social table
+  - create_socials_table.php
+1.1.1:
+  - Create Item table
+  - create_items_table.php
+1.1.2:
+  - add head component for Work

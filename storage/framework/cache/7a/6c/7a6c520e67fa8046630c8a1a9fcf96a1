@@ -1,0 +1,59 @@
+1456767725s:2282:"a:2:{s:5:"mtime";i:1456479734;s:7:"content";s:2227:"<form
+    data-request="onSignin">
+
+    <!--
+        <div class="form-group">
+            <label for="userSigninLogin">{{ loginAttributeLabel }}</label>
+            <input
+                name="login"
+                type="text"
+                class="form-control"
+                id="userSigninLogin"
+                placeholder="Enter your {{ loginAttributeLabel|lower }}" />
+        </div>
+
+        <div class="form-group">
+            <label for="userSigninPassword">Password</label>
+            <input
+                name="password"
+                type="password"
+                class="form-control"
+                id="userSigninPassword"
+                placeholder="Enter your password" />
+        </div>
+     -->
+
+    <div class="panel panel-body login-form">
+        <div class="text-center">
+            <div class="icon-object border-slate-300 text-slate-300"><i class="icon-reading"></i></div>
+            <h5 class="content-group">Login to your account <small class="display-block">Enter your credentials below</small></h5>
+        </div>
+
+        <div class="form-group has-feedback has-feedback-left">
+            <input name="login" id="userSigninLogin" type="text" class="form-control" placeholder="Enter your {{ loginAttributeLabel|lower }}">
+            <div class="form-control-feedback">
+                <i class="icon-user text-muted"></i>
+            </div>
+        </div>
+
+        <div class="form-group has-feedback has-feedback-left">
+            <input name="password" type="password" class="form-control" id="userSigninPassword" placeholder="Enter your password">
+            <div class="form-control-feedback">
+                <i class="icon-lock2 text-muted"></i>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block">Sign in <i class="icon-circle-right2 position-right"></i></button>
+        </div>
+
+        <!--
+            <div class="text-center">
+                <a href="login_password_recover.html">Forgot password?</a>
+            </div>
+        -->
+    </div>
+
+
+    <!--<button type="submit" class="btn btn-default">Sign in</button>-->
+</form>";}";

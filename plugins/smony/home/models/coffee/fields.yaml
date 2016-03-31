@@ -1,0 +1,18 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    coffee_cups:
+          label: Coffee cups
+          type: number
+    projects:
+          label: Projects
+          type: number
+    working_days:
+          label: Working days
+          type: number
+    clients:
+          label: Clients
+          type: number
+

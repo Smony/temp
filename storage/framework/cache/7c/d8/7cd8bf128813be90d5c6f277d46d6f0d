@@ -1,0 +1,25 @@
+1456767724s:870:"a:6:{s:5:"mtime";i:1456479780;s:7:"content";s:312:"title = "CONTACT US"
+url = "/contact-us"
+layout = "default"
+is_hidden = 0
+
+[googleMap]
+latitude = 51.506767
+longitude = -0.122205
+zoom = 12
+width = "100%"
+height = "350px"
+mapTypeId = "ROADMAP"
+showMarker = 1
+==
+<div class="row">
+
+   Contact template 
+   
+   {% component 'googleMap' %}
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:10:"CONTACT US";s:3:"url";s:11:"/contact-us";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:10:"components";a:1:{s:9:"googleMap";a:7:{s:8:"latitude";s:9:"51.506767";s:9:"longitude";s:9:"-0.122205";s:4:"zoom";s:2:"12";s:5:"width";s:4:"100%";s:6:"height";s:5:"350px";s:9:"mapTypeId";s:7:"ROADMAP";s:10:"showMarker";s:1:"1";}}}s:4:"code";N;s:6:"markup";s:86:"<div class="row">
+
+   Contact template 
+   
+   {% component 'googleMap' %}
+</div>";}";

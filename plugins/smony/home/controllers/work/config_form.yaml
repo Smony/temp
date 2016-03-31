@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Work
+
+# Model Form Field configuration
+form: $/smony/home/models/work/fields.yaml
+
+# Model Class name
+modelClass: Smony\Home\Models\Work
+
+# Default redirect location
+defaultRedirect: smony/home/work
+
+# Create page
+create:
+    title: Create Work
+    redirect: smony/home/work/update/:id
+    redirectClose: smony/home/work
+
+# Update page
+update:
+    title: Edit Work
+    redirect: smony/home/work
+    redirectClose: smony/home/work
+
+# Preview page
+preview:
+    title: Preview Work

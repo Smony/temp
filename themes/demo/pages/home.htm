@@ -1,0 +1,46 @@
+title = "Home"
+url = "/"
+layout = "default"
+is_hidden = 0
+meta_title = "ewrewterter"
+meta_description = 234234234
+
+[session]
+security = "all"
+redirect = "home"
+==
+<div class="jumbotron">
+    <div class="container">
+
+        {% partial "navigation" %}
+
+        {% content "welcome.htm" %}
+    </div>
+</div>
+
+<div class="container">
+    <ul class="list-inline">
+        <li><a href="{{ 'account'|page }}">account</a></li>
+        <li>{% if user %}
+        <p>Hello {{ user.name }}</p>
+        {% else %}
+        <p>Nobody is logged in</p>
+        {% endif %}</li>
+        <li>{% if user %}<a data-request="onLogout" data-request-data="redirect: '/'">Sign out</a>{% endif %}</li>
+        
+    </ul>
+
+
+
+    <div class="page-header">
+        <h2>Overview <small>Basic concepts</small></h2>
+    </div>
+
+    <hr />
+
+
+
+
+
+
+</div>

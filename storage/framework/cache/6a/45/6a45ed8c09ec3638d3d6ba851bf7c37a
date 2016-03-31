@@ -1,0 +1,33 @@
+1459417195s:1512:"a:6:{s:5:"mtime";i:1458208438;s:7:"content";s:673:"[session]
+security = "all"
+==
+{% if user %}
+<li id="wider_on_the_PC">
+    <a href="{{ 'account'|page }}">
+       <button type="button" class="btn btn-default" id="navigate"><i class="glyphicon glyphicon-user"></i>&nbsp;{{ user.name }}</button>
+    </a>
+</li>
+{% else %}
+<a href="{{ 'account'|page }}">
+    <button type="button" class="btn btn-default" id="navigate" style="margin-top: 0px;">
+        <a href="javascript:void(0);" class="btn-auth-group" data-toggle="modal" data-target="#modal-login">Login</a> /
+        <a href="javascript:void(0);" class="btn-auth-group" data-toggle="modal" data-target="#modal-registration">Register</a>
+    </button>
+</a>
+{% endif %}
+
+
+";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:1:{s:7:"session";a:1:{s:8:"security";s:3:"all";}}}s:4:"code";N;s:6:"markup";s:640:"{% if user %}
+<li id="wider_on_the_PC">
+    <a href="{{ 'account'|page }}">
+       <button type="button" class="btn btn-default" id="navigate"><i class="glyphicon glyphicon-user"></i>&nbsp;{{ user.name }}</button>
+    </a>
+</li>
+{% else %}
+<a href="{{ 'account'|page }}">
+    <button type="button" class="btn btn-default" id="navigate" style="margin-top: 0px;">
+        <a href="javascript:void(0);" class="btn-auth-group" data-toggle="modal" data-target="#modal-login">Login</a> /
+        <a href="javascript:void(0);" class="btn-auth-group" data-toggle="modal" data-target="#modal-registration">Register</a>
+    </button>
+</a>
+{% endif %}";}";

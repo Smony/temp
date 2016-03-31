@@ -1,0 +1,12 @@
+1459425339s:490:"a:6:{s:5:"mtime";i:1458208438;s:7:"content";s:136:"title = "Users"
+url = "/account/users"
+layout = "admin"
+is_hidden = 0
+
+[account]
+paramCode = "code"
+
+[session]
+security = "all"
+==
+users";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:5:"Users";s:3:"url";s:14:"/account/users";s:6:"layout";s:5:"admin";s:9:"is_hidden";s:1:"0";s:10:"components";a:2:{s:7:"account";a:1:{s:9:"paramCode";s:4:"code";}s:7:"session";a:1:{s:8:"security";s:3:"all";}}}s:4:"code";N;s:6:"markup";s:5:"users";}";

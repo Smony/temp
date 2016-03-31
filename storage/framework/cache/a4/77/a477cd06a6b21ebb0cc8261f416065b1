@@ -1,0 +1,54 @@
+1456767768s:1978:"a:2:{s:5:"mtime";i:1456479735;s:7:"content";s:1923:"<div class="row coffe" style="margin-right: 0px;  margin-left: 0px;">
+
+
+    <div class="col-xs-hidden col-md-2"></div>
+    {% for post in homeCoffee.getCoffee %}
+        <div class="col-xs-3 col-md-2 COFFEE_CUPS">
+            <span class="indent"></span>
+            <span class="indent"></span>
+            <img class="img-size" src="themes/photonj/assets/img/coffe.jpg">
+            <p></p>
+            <p class="text_coffe">COFFEE CUPS</p>
+            <p class="digits_coffe">{{ post.coffee_cups }}</p>
+            <span class="indent"></span>
+            <span class="indent"></span>
+        </div>
+
+    <div class="col-xs-3 col-md-2 PROJECTS">
+        <span class="indent"></span>
+        <span class="indent"></span>
+        <img class="img-size" src="themes/photonj/assets/img/work.jpg">
+        <p></p>
+        <p class="text_coffe">PROJECTS</p>
+        <p class="digits_coffe">{{ post.projects }}</p>
+        <span class="indent"></span>
+        <span class="indent"></span>
+    </div>
+
+    <div class="col-xs-3 col-md-2 WORKING_DAYS">
+        <span class="indent"></span>
+        <span class="indent"></span>
+        <img class="img-size" src="themes/photonj/assets/img/mouse.jpg">
+        <p></p>
+        <p class="text_coffe">WORKING DAYS</p>
+        <p class="digits_coffe">{{ post.working_days }}</p>
+        <span class="indent"></span>
+        <span class="indent"></span>
+    </div>
+
+    <div class="col-xs-3 col-md-2 CLIENTS">
+        <span class="indent"></span>
+        <span class="indent"></span>
+        <img class="img-size" src="themes/photonj/assets/img/clients.jpg">
+        <p></p>
+        <p class="text_coffe">CLIENTS</p>
+        <p class="digits_coffe">{{ post.clients }}</p>
+        <span class="indent"></span>
+        <span class="indent"></span>
+    </div>
+    {% endfor %}
+    <div class="col-xs-hidden col-md-2 ">
+
+    </div>
+
+</div>";}";

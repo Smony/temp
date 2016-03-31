@@ -1,0 +1,149 @@
+title = "Account"
+url = "/account"
+layout = "admin"
+is_hidden = 0
+
+[account]
+redirect = "account"
+paramCode = "code"
+
+[session]
+security = "all"
+redirect = "s"
+
+[demoTodo]
+max = 3
+==
+<?php
+function onInit()
+{
+    //$this->imageUploader->bindModel('files', Project::find(1));
+    //new Project;
+    #$this->imageUploader->bindModel('photoTest',new \Rainlab\User\Models\User);
+
+
+    //var_dump($this->page);
+
+//Auth::user->id
+//echo '<pre>';
+    //print_r(Auth::user->id);
+       // echo '</pre>';
+//die();
+
+
+}
+
+function onStart()
+{
+
+
+/*
+        $this['tmp'] = 'test.htm';
+
+        use Yandex\Disk\DiskClient;
+
+        require_once 'phar://yandex-php-library_master.phar/vendor/autoload.php';
+
+        #define('ACCESS_TOKEN', 'bbbef0b0944e4ce79219ac5884cbbebc');
+        define('ACCESS_TOKEN', 'b935155030af4a38b2ce7452fb1f2602');
+
+        $user = Auth::getUser();
+
+        $diskClient = new DiskClient(ACCESS_TOKEN);
+        $diskClient->setServiceScheme(DiskClient::HTTPS_SCHEME);
+        #$diskSpace = $diskClient->diskSpaceInfo();
+        $path = $user->email;
+
+        // Получаем список файлов из директории
+
+        $dirContent = $diskClient->directoryContents('/'.$path);
+        $files = $diskClient->directoryContents('/'.$path);
+
+        foreach ($dirContent as $dirItem) {
+        if ($dirItem['resourceType'] === 'dir') {
+        echo 'Директория "' . $dirItem['displayName'] . '" была создана ' . date(
+        'Y-m-d в H:i:s',
+        strtotime($dirItem['creationDate'])
+        ) . '<br />';
+            } else {
+            echo 'Файл "' . $dirItem['displayName'] . '" с размером в ' . $dirItem['contentLength'] . ' байт был создан ' . date(
+            'Y-m-d в H:i:s',
+            strtotime($dirItem['creationDate'])
+            ) . '<br />';
+            }
+        }
+
+*/
+
+/*
+                #$user = Auth::getUser();
+                #echo $user;
+
+                $file_array = file("message.txt");
+
+                if(!$file_array)
+                {
+                    echo("Ошибка открытия файла");
+                }
+                else
+                {
+                    for($i=0; $i < count($file_array); $i++)
+                    {
+                        printf("%s<br>", $file_array[$i]);
+                    }
+                }
+*/
+
+}
+
+function onTest()
+{
+    $value1 = post('value1');
+    $value2 = post('value2');
+    $this['answer'] = $value1 + $value2;
+}
+?>
+==
+<div class="conteiner">
+    <div class="row">
+        <div class="col-lg-1"></div>
+
+        <div class="col-lg-10 ">
+            {% component 'account' %}
+        <hr />
+
+        <!-- UPLOADS FILES -->
+        {% for role in user.groups() %}
+            {% if role.code == 'clients' %}
+
+                <div id="upload" class="dropzone2" style="display:none">
+
+                    <div class="dz-message needsclick">
+                        Drop files here or click to upload.<br>
+                    </div>
+
+                    {% component 'demoTodo' %}
+
+                </div>
+
+            {% else %}
+            {% endif %}
+        {% endfor %}
+
+        <!-- END UPLOADS FILES -->
+
+            <!--
+                    <form data-request="onTest" data-request-update="accountres: '#result'">
+                        <input type="text" name="value1" value=""/>
+                        <input type="text" name="value2" value="" />
+                        <input type="submit" value="upload">
+                    </form>
+                    <div id="#result">
+                        {% partial "accountres" %}
+                    </div>
+            -->
+
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+</div>

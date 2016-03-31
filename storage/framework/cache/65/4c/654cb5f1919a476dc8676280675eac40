@@ -1,0 +1,88 @@
+1456767725s:3202:"a:2:{s:5:"mtime";i:1456479734;s:7:"content";s:3147:"<form
+    data-request="onRegister">
+
+    <div class="panel panel-body login-form">
+        <div class="text-center">
+            <div class="icon-object border-success text-success"><i class="icon-plus3"></i></div>
+            <h5 class="content-group">Create account <small class="display-block">All fields are required</small></h5>
+        </div>
+
+        <div class="content-divider text-muted form-group"><span>Your credentials</span></div>
+
+        <div class="form-group has-feedback has-feedback-left">
+            <input
+                    name="name"
+                    type="text"
+                    class="form-control"
+                    id="registerName"
+                    placeholder="Enter your full name" />
+            <div class="form-control-feedback">
+                <i class="icon-user-check text-muted"></i>
+            </div>
+        </div>
+
+        <div class="content-divider text-muted form-group"><span>Your privacy</span></div>
+
+        <div class="form-group has-feedback has-feedback-left">
+            <input
+                    name="email"
+                    type="email"
+                    class="form-control"
+                    id="registerEmail"
+                    placeholder="Enter your email" />
+            <div class="form-control-feedback">
+                <i class="icon-mention text-muted"></i>
+            </div>
+        </div>
+
+        <div class="content-divider text-muted form-group"><span>Your credentials</span></div>
+
+        <div class="form-group has-feedback has-feedback-left">
+            <input name="password"
+                   type="password"
+                   class="form-control"
+                   id="registerPassword"
+                   placeholder="Choose a password" />
+            <div class="form-control-feedback">
+                <i class="icon-user-lock text-muted"></i>
+            </div>
+        </div>
+
+        <button type="submit" class="btn bg-teal btn-block btn-lg">Register <i class="icon-circle-right2 position-right"></i></button>
+    </div>
+
+    <!--
+        <div class="form-group">
+            <label for="registerName">Full Name</label>
+            <input
+                name="name"
+                type="text"
+                class="form-control"
+                id="registerName"
+                placeholder="Enter your full name" />
+        </div>
+
+        <div class="form-group">
+            <label for="registerEmail">Email</label>
+            <input
+                name="email"
+                type="email"
+                class="form-control"
+                id="registerEmail"
+                placeholder="Enter your email" />
+        </div>
+
+        <div class="form-group">
+            <label for="registerPassword">Password</label>
+            <input
+                name="password"
+                type="password"
+                class="form-control"
+                id="registerPassword"
+                placeholder="Choose a password" />
+        </div>
+
+        <button type="submit" class="btn btn-default">Register</button>
+    -->
+</form>
+";}";

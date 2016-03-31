@@ -1,0 +1,37 @@
+1454500635s:1426:"a:6:{s:5:"mtime";i:1454497307;s:7:"content";s:636:"<div class="module-sidemenu">
+    <ul>
+        <li class="head-link"><span>My Profile</span></li>
+        <li><a href="{{ 'account'|page }}">Change My Password</a></li>
+        <li><a href="javascript:;" data-request="onLogout">Log out</a></li>
+    </ul>
+</div>
+<div class="module-sidemenu">
+    <ul>
+        <li class="head-link">
+            <a href="{{ 'clients'|staticPage }}">Client area</a>
+        </li>
+        {% for item in clientMenu.menuItems %}
+            <li class="{{ item.isActive ? 'active' : '' }}">
+                <a href="{{ item.url }}">{{ item.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:636:"<div class="module-sidemenu">
+    <ul>
+        <li class="head-link"><span>My Profile</span></li>
+        <li><a href="{{ 'account'|page }}">Change My Password</a></li>
+        <li><a href="javascript:;" data-request="onLogout">Log out</a></li>
+    </ul>
+</div>
+<div class="module-sidemenu">
+    <ul>
+        <li class="head-link">
+            <a href="{{ 'clients'|staticPage }}">Client area</a>
+        </li>
+        {% for item in clientMenu.menuItems %}
+            <li class="{{ item.isActive ? 'active' : '' }}">
+                <a href="{{ item.url }}">{{ item.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>";}";

@@ -1,0 +1,39 @@
+1459423449s:1160:"a:2:{s:5:"mtime";i:1459265404;s:7:"content";s:1105:"<!--
+<script>
+
+    var fso, ts;
+    var ForWriting= 2;
+    fso = new ActiveXObject("Scripting.FileSystemObject");
+    ts = fso.OpenTextFile("message.txt", ForWriting, true);
+
+
+    function CreateFile()
+    {
+        var fso, tf;
+        fso = new ActiveXObject("Scripting.FileSystemObject");
+        tf = fso.CreateTextFile("message.txt", true);
+        // Вставка строки с переносом на новую.
+        tf.WriteLine("Testing 1, 2, 3.") ;
+        // Вставка 3 пустых строк.
+        tf.WriteBlankLines(3) ;
+        // Вставка новой строки, без переноса.
+        tf.Write ("This is a test.");
+        ' Закрытие файла.
+        tf.Close();
+    }
+
+</script>
+-->
+{% for item in items %}
+    <li class="list-group-item">
+        <input type="hidden" name="items[]" value="{{ item }}" />
+
+        {{ item }}
+
+        <button type="button" 
+            class="close pull-right" 
+            aria-hidden="true" 
+            class="" 
+            onclick="$(this).closest('li').remove()">&times;</button>
+    </li>
+{% endfor %}";}";

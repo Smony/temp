@@ -1,0 +1,28 @@
+1456767769s:1409:"a:2:{s:5:"mtime";i:1456479730;s:7:"content";s:1354:"<div class="card">
+
+    <div class="row NEWSLETTERSIGN-UP" style="margin-right: 0px;  margin-left: 0px; border: 0;">
+
+        <div class="card-content author row NEWSLETTERSIGN-UP" style="margin-right: 0px;  margin-left: 0px; border: 0;">
+            <form name="form-subscribe-andradedev" id="form-subscribe-andradedev" data-request="{{ __SELF__ }}::onAddSubscriber" data-request-update="'{{__SELF__}}::alert': '#result'">
+                <div class="col-xs-12 col-lg-3" style="padding-top: 15px;">
+                    <p class="NEWSLETTER"> NEWSLETTER <span class="SIGN-UP"> SIGN-UP </span> </p>
+                </div>
+                <div class="col-xs-12 col-lg-3"  style="padding-top: 8px; outline: none;">
+                    <input type="email" class="form-control NEWSLETTER_form_control" name="email" placeholder="Enter your E-mail..." required>
+                    <div/>
+                    <input type="hidden" name="latitude" id="latitude">
+                    <input type="hidden" name="longitude" id="longitude">
+            </form>
+        </div>
+
+
+
+    </div>
+
+    <div class="card-action" style="padding-top: 15px;">
+        <button class="btn btn-primary btn-block" form="form-subscribe-andradedev" id="NEWSLETTER_LINK" style="width: 150px;">SUBSCRIBE</button>
+    </div>
+
+    <div id="result"></div>
+
+</div>";}";

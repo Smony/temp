@@ -1,0 +1,1 @@
+1456408736a:1:{i:0;O:8:"stdClass":3:{s:2:"id";i:7;s:4:"item";s:30:"flynsarmy_sociallogin_settings";s:5:"value";s:210:"{"providers":{"Google":{"enabled":"1","app_name":"Social Login","client_id":"","client_secret":""},"Twitter":{"enabled":"1","api_key":"","api_secret":""},"Facebook":{"enabled":"1","app_id":"","app_secret":""}}}";}}

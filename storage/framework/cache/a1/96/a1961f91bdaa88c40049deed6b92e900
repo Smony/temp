@@ -1,0 +1,26 @@
+1454504677s:1200:"a:6:{s:5:"mtime";i:1454492710;s:7:"content";s:459:"title = "Blog"
+url = "/blog"
+layout = "test"
+description = "blog Description"
+is_hidden = 0
+
+[blogCategories]
+slug = "{{ :slug }}"
+displayEmpty = 0
+categoryPage = "blog-category"
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "blog-category"
+postPage = "blog-post"
+==
+blog text
+{% component 'blogCategories' %}
+<hr />
+{% component 'blogPosts' %}";s:7:"viewBag";a:0:{}s:8:"settings";a:6:{s:5:"title";s:4:"Blog";s:3:"url";s:5:"/blog";s:6:"layout";s:4:"test";s:11:"description";s:16:"blog Description";s:9:"is_hidden";s:1:"0";s:10:"components";a:2:{s:14:"blogCategories";a:3:{s:4:"slug";s:11:"{{ :slug }}";s:12:"displayEmpty";s:1:"0";s:12:"categoryPage";s:13:"blog-category";}s:9:"blogPosts";a:6:{s:10:"pageNumber";s:11:"{{ :page }}";s:12:"postsPerPage";s:2:"10";s:14:"noPostsMessage";s:14:"No posts found";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:13:"blog-category";s:8:"postPage";s:9:"blog-post";}}}s:4:"code";N;s:6:"markup";s:80:"blog text
+{% component 'blogCategories' %}
+<hr />
+{% component 'blogPosts' %}";}";

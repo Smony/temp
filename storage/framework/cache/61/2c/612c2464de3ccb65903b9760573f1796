@@ -1,0 +1,18 @@
+1455716891s:418:"a:2:{s:5:"mtime";i:1455716253;s:7:"content";s:364:"{% for contact in home.getContact %}
+
+<p  class="contact">
+    <img src="{{ 'assets/img/phone.jpg'|theme }}">
+    {{ contact.phone_number }}
+</p>
+
+<p  class="contact">
+    <img src="{{ 'assets/img/e-mail.jpg'|theme }}">
+    {{ contact.email }}
+</p>
+
+<p  class="contact">
+    <img src="{{ 'assets/img/map.jpg'|theme }}">
+    {{ contact.address }}
+</p>
+
+{% endfor %}";}";

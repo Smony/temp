@@ -1,0 +1,10 @@
+1459425397s:411:"a:6:{s:5:"mtime";i:1458208438;s:7:"content";s:130:"==
+{% if answer %}
+    The result is {{ answer }}.
+{% else %}
+    Click the <em>upload</em> button to find the answer.
+{% endif %}";s:7:"viewBag";a:0:{}s:8:"settings";a:1:{s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:127:"{% if answer %}
+    The result is {{ answer }}.
+{% else %}
+    Click the <em>upload</em> button to find the answer.
+{% endif %}";}";

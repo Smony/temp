@@ -1,0 +1,22 @@
+1459425396s:476:"a:2:{s:5:"mtime";i:1458208438;s:7:"content";s:422:"{% if not user %}
+
+    <div class="row">
+        <div class="col-md-6">
+            {% partial __SELF__ ~ '::popup_singin' %}
+        </div>
+
+        <div class="col-md-6">
+            {% partial __SELF__ ~ '::popup_register' %}
+        </div>
+    </div>
+
+{% else %}
+
+    {% partial __SELF__ ~ '::activation_check' %}
+
+    {% partial __SELF__ ~ '::update' %}
+
+    {% partial __SELF__ ~ '::deactivate_link' %}
+
+{% endif %}
+";}";

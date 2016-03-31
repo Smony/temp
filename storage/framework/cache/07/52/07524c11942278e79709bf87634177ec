@@ -1,0 +1,12 @@
+1459423244s:274:"a:2:{s:5:"mtime";i:1459422469;s:7:"content";s:220:"<p>commit {{ __SELF__.name }}</p>
+
+{% set tasks commit.tasks %}
+
+{% for task in tasks %}
+    <ul>
+        <li>
+            dsdfsddsfsdfsdfsdfdsfsdf
+            sdfsdsdfgdsf
+        </li>
+    </ul>
+{% endfor %}";}";

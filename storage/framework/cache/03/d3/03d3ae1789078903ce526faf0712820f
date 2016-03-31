@@ -1,0 +1,23 @@
+1454502490s:867:"a:6:{s:5:"mtime";i:1454495712;s:7:"content";s:342:"title = "Page not found"
+url = "/404"
+layout = "default"
+hidden = "0"
+==
+<!-- Section: intro -->
+<section id="intro" class="intro">
+
+    <div class="slogan">
+        <h2>OOPS !!!<span class="text_color"> 404</span> </h2>
+        <h4>SORRY, BUT THE PAGE YOU WAS LOOKING FOR CANNOT BE FOUND.</h4>
+    </div>
+</section>
+<!-- /Section: intro -->
+";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:14:"Page not found";s:3:"url";s:4:"/404";s:6:"layout";s:7:"default";s:6:"hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:268:"<!-- Section: intro -->
+<section id="intro" class="intro">
+
+    <div class="slogan">
+        <h2>OOPS !!!<span class="text_color"> 404</span> </h2>
+        <h4>SORRY, BUT THE PAGE YOU WAS LOOKING FOR CANNOT BE FOUND.</h4>
+    </div>
+</section>
+<!-- /Section: intro -->";}";

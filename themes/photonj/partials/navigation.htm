@@ -1,0 +1,48 @@
+<div class="collapse navbar-collapse" id="responsive_menu">
+    <ul class="nav navbar-nav" style="font-size: 15pt;">
+        <li id="hidden_on_touch_screen">
+            <a href="#">
+                <button type="button" class="btn btn-info" id="bar">
+                    <i class="fa fa-bars fa-lg"></i>
+                </button>
+            </a>
+        </li>
+
+
+        <li id="wider_on_the_PC">
+            <a href="{{ 's'|page }}">
+                <button type="button" class="btn btn-default" id="navigate">HOME</button>
+            </a>
+        </li>
+
+        <li id="wider_on_the_PC">
+            <a href="{{ 'works'|page }}">
+                <button type="button" class="btn btn-default" id="navigate">HOW IT WORKS</button>
+            </a>
+        </li>
+
+        <li id="hidden_on_touch_screen">
+            <a href="{{ '/' }}">
+                <button type="button" class="btn btn-info btn-lg" id="logo">S<br><span>Silkovskyy</span></button>
+
+            </a>
+        </li>
+
+        <li id="wider_on_the_PC">
+            <a href="{{ 'services'|page }}">
+                <button type="button" class="btn btn-default" id="navigate">SERVICES AND PRICES</button>
+            </a>
+        </li>
+
+        <li id="wider_on_the_PC">
+            <a href="{{ 'contanct'|page }}">
+                <button type="button" class="btn btn-default" id="navigate">CONTACT US</button>
+            </a>
+        </li>
+
+        <li>
+            {% partial "singin" %}
+        </li>
+
+    </ul>
+</div>

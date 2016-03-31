@@ -1,0 +1,23 @@
+1454502490s:908:"a:6:{s:5:"mtime";i:1454495712;s:7:"content";s:363:"title = "Error"
+url = "/error"
+layout = "default"
+hidden = "0"
+==
+<!-- Section: intro -->
+<section id="intro" class="intro">
+
+    <div class="slogan">
+        <h2>OOPS !!!<span class="text_color"> 500</span> </h2>
+        <h4>SORRY, BUT THE PAGE YOU WAS LOOKING FOR CONTAINS SOME ERROR AND CANNOT BE DISPLAYED.</h4>
+    </div>
+</section>
+<!-- /Section: intro -->
+";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:5:"Error";s:3:"url";s:6:"/error";s:6:"layout";s:7:"default";s:6:"hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:296:"<!-- Section: intro -->
+<section id="intro" class="intro">
+
+    <div class="slogan">
+        <h2>OOPS !!!<span class="text_color"> 500</span> </h2>
+        <h4>SORRY, BUT THE PAGE YOU WAS LOOKING FOR CONTAINS SOME ERROR AND CANNOT BE DISPLAYED.</h4>
+    </div>
+</section>
+<!-- /Section: intro -->";}";

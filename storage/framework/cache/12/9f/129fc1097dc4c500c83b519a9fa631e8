@@ -1,0 +1,23 @@
+1454502490s:932:"a:6:{s:5:"mtime";i:1454495712;s:7:"content";s:374:"title = "Maintenance"
+url = "/maintenance"
+layout = "default"
+hidden = "0"
+==
+<!-- Section: intro -->
+<section id="intro" class="intro">
+
+    <div class="slogan">
+        <h2>OOPS !!!<span class="text_color"> MAINTENANCE</span> </h2>
+        <h4>SORRY, BUT WE ARE UNDER MAINTENANCE AT THIS MOMENT, PLEASE TRY AGAIN LATER.</h4>
+    </div>
+</section>
+<!-- /Section: intro -->
+";s:7:"viewBag";a:0:{}s:8:"settings";a:5:{s:5:"title";s:11:"Maintenance";s:3:"url";s:12:"/maintenance";s:6:"layout";s:7:"default";s:6:"hidden";s:1:"0";s:10:"components";a:0:{}}s:4:"code";N;s:6:"markup";s:295:"<!-- Section: intro -->
+<section id="intro" class="intro">
+
+    <div class="slogan">
+        <h2>OOPS !!!<span class="text_color"> MAINTENANCE</span> </h2>
+        <h4>SORRY, BUT WE ARE UNDER MAINTENANCE AT THIS MOMENT, PLEASE TRY AGAIN LATER.</h4>
+    </div>
+</section>
+<!-- /Section: intro -->";}";

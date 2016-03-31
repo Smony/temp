@@ -1,0 +1,18 @@
+1459343884s:362:"a:2:{s:5:"mtime";i:1459343039;s:7:"content";s:308:"<!-- Map -->
+
+<p>{{__SELF__.property('one')}}</p>
+<p>{{__SELF__.property('two')}}</p>
+<p>{{__SELF__.property('the')}}</p>
+
+
+
+<script>
+
+    var data = eval("(" + response + ")");
+    //теперь можно использовать объект data
+    alert(data.qweqwe + "n" + data.asdasd);
+
+</script>
+
+
+";}";

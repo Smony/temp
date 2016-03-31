@@ -1,0 +1,31 @@
+title = "ACCOUNT"
+url = "/account"
+layout = "test"
+is_hidden = 0
+meta_title = "meta_title"
+meta_description = "meta_description"
+
+[account]
+redirect = "home"
+paramCode = "code"
+==
+<div class="container">
+    <div class="row">
+
+        {% if user.password == '$2y$10$RKXnry.uM.EzzyEX9pSULeIB0.5Hvce9UfsdWZOniayMafRS.ewY2' %}
+        <p>Hello {{ user.name }}</p>
+        <p>{{ user.password }}</p>
+        {% else %}
+        <p>Nobody is logged in</p>
+        {% endif %}
+
+        <hr />
+        
+            {% component 'account' %}
+
+
+
+
+    </div>
+
+</div>

@@ -1,0 +1,7 @@
+1456501521s:251:"a:2:{s:5:"mtime";i:1456479735;s:7:"content";s:197:"{% if image %}
+    <img
+        src="{{ __SELF__.getThumb }}"
+        style="{{ __SELF__.getCssSize }}" />
+{% else %}
+    <p class="placeholder">{{ __SELF__.placeholderText }}</p>
+{% endif %}";}";

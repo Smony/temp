@@ -1,0 +1,118 @@
+<!-- Registration form -->
+<div id="modal-registration" class="modal fade">
+    <div class="modal-dialog" style="width: 270px;">
+        <div class="modal-content login-form">
+
+<form
+        data-request="onRegister">
+
+    <div class="panel panel-body login-form">
+        <div class="text-center">
+            <div class="icon-object border-success text-success"><i class="icon-plus3"></i></div>
+            <h5 class="content-group">Create account <small class="display-block">All fields are required</small></h5>
+        </div>
+
+        <div class="content-divider text-muted form-group"><span>Your credentials</span></div>
+
+        <div class="form-group has-feedback has-feedback-left">
+            <input
+                    name="name"
+                    type="text"
+                    class="form-control"
+                    id="registerName"
+                    placeholder="Enter your full name" />
+            <div class="form-control-feedback">
+                <i class="icon-user-check text-muted"></i>
+            </div>
+        </div>
+
+        <div class="content-divider text-muted form-group"><span>Your privacy</span></div>
+
+        <div class="form-group has-feedback has-feedback-left">
+            <input
+                    name="email"
+                    type="email"
+                    class="form-control"
+                    id="registerEmail"
+                    placeholder="Enter your email" />
+            <div class="form-control-feedback">
+                <i class="icon-mention text-muted"></i>
+            </div>
+        </div>
+
+        <div class="content-divider text-muted form-group"><span>Your credentials</span></div>
+
+        <div class="form-group has-feedback has-feedback-left">
+            <input name="password"
+                   type="password"
+                   class="form-control"
+                   id="registerPassword"
+                   placeholder="Choose a password" />
+            <div class="form-control-feedback">
+                <i class="icon-user-lock text-muted"></i>
+            </div>
+        </div>
+
+        <div class="content-divider text-muted form-group"><span>Select a plan below</span></div>
+
+        <div class="bootstrap-select bs-select-hidden">
+
+            <select name="a_plan" class="form-control bootstrap-select bs-select-hidden" data-width="100%">
+                <option value="1">FREE</option>
+                <option value="2">BASIC</option>
+                <option value="3">IMAGE</option>
+                <option value="4">CUSTOM</option>
+            </select>
+
+         </div>
+        <br />
+
+
+
+        <div class="form-group">
+            <button type="submit" class="btn bg-blue btn-block">Register <i class="icon-circle-right2 position-right"></i></button>
+            <button type="button" class="btn btn-default btn-block" data-dismiss="modal">Cancel</button>
+        </div>
+
+        {% partial __SELF__ ~ '::termsConditions_cookiePolicy' %}
+    </div>
+
+    <!--
+        <div class="form-group">
+            <label for="registerName">Full Name</label>
+            <input
+                name="name"
+                type="text"
+                class="form-control"
+                id="registerName"
+                placeholder="Enter your full name" />
+        </div>
+
+        <div class="form-group">
+            <label for="registerEmail">Email</label>
+            <input
+                name="email"
+                type="email"
+                class="form-control"
+                id="registerEmail"
+                placeholder="Enter your email" />
+        </div>
+
+        <div class="form-group">
+            <label for="registerPassword">Password</label>
+            <input
+                name="password"
+                type="password"
+                class="form-control"
+                id="registerPassword"
+                placeholder="Choose a password" />
+        </div>
+
+        <button type="submit" class="btn btn-default">Register</button>
+    -->
+</form>
+
+        </div>
+    </div>
+</div>
+<!-- /registration form -->

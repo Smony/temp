@@ -1,0 +1,10 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+   id:
+        label: ID
+        disabled: true
+   title:
+        label: Title

@@ -1,0 +1,18 @@
+<div class="row" style="margin-right: 0px; margin-left: 0px; font-size: 2vw;">
+
+    {% partial __SELF__ ~ '::head' %}
+
+    <div class="row" style="margin-right: 0px;  margin-left: 0px";>
+        <div class="col-xs-hidden col-sm-hidden col-md-1"></div>
+
+        {% for post in work.works %}
+        <div class="col-xs-12 col-md-2" >
+            <img class="img-responsive img-circle" src="{{ post.attachments.path }}" alt="{{ post.attachments.title }}">
+            <p class="under_plasecholder_sircl" style="word-wrap: break-word;">{{ post.title }}</p>
+        </div>
+        {% endfor %}
+
+        <div class="col-xs-hidden col-sm-hidden col-md-1" ></div>
+    </div>
+    <span class="indent"></span>
+</div>

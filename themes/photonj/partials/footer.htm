@@ -1,0 +1,91 @@
+[home]
+
+[social]
+==
+<div class="col-xs-hidden col-lg-2"> </div>
+
+    <div class="col-xs-12 col-lg-2">
+
+        <p class="contact_logo">
+            <a href="{{ '/' }}" class="logo_in_footer">
+                S
+            </a>
+        </p>
+
+        {% for contact in home.getContact %}
+
+        <p  class="contact">
+            <img src="{{ 'assets/img/phone.jpg'|theme }}">
+            {{ contact.phone_number }}
+        </p>
+
+        <p  class="contact">
+            <img src="{{ 'assets/img/e-mail.jpg'|theme }}">
+            {{ contact.email }}
+        </p>
+
+        <p  class="contact">
+            <img src="{{ 'assets/img/map.jpg'|theme }}">
+            {{ contact.address }}
+        </p>
+
+        {% endfor %}
+
+
+        {% for social in social.getSocialLink %}
+
+            <p  class="contact_social_networks">
+
+                <a href="{{ social.facebook }}" target="_blank" class="social_networks"><i class="fa fa-facebook  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
+
+                <a href="{{ social.twitter }}" target="_blank" class="social_networks"><i class="fa fa-twitter  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
+
+                <a href="{{ social.pinterest }}" target="_blank" class="social_networks"><i class="fa fa-pinterest  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
+
+                <a href="{{ social.instagram }}" target="_blank" class="social_networks"><i class="fa fa-instagram  "></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
+
+            </p>
+
+        {% endfor %}
+    </div>
+
+    <div class="col-xs-12 col-lg-1"> </div>
+
+
+
+
+        <div class="col-xs-12 col-lg-2 EMAIL_UPDATES">
+            <p class="text-left"> EMAIL UPDATES </p>
+
+            {% component 'feedback' %}
+    
+        </div>
+
+<!--
+        <div class="col-xs-12 col-lg-2 EMAIL_UPDATES">
+            <p class="text-left"> EMAIL UPDATES </p>
+
+
+            <input type="text" class="form-control footer_form_control" placeholder="Enter your e-mail">
+            <input type="text" class="form-control footer_form_control" placeholder="Enter your name">
+            <input type="text" class="form-control footer_form_control_text" placeholder="Enter your text">
+
+
+            <a href="#" class="send_button">
+                &nbsp; SEND &nbsp;
+            </a>
+
+
+        </div>
+-->
+
+    <div class="col-xs-12 col-lg-1"> </div>
+
+    <div class="col-xs-12 col-lg-2 footer_menu">
+
+        {% partial "navigation_footer" %}
+
+    </div>
+
+
+    <div class="col-xs-hidden col-lg-2"> </div>

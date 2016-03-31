@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Social
+
+# Model Form Field configuration
+form: $/smony/home/models/social/fields.yaml
+
+# Model Class name
+modelClass: Smony\Home\Models\Social
+
+# Default redirect location
+defaultRedirect: smony/home/social
+
+# Create page
+create:
+    title: Create Social
+    redirect: smony/home/social/update/:id
+    redirectClose: smony/home/social
+
+# Update page
+update:
+    title: Edit Social
+    redirect: smony/home/social
+    redirectClose: smony/home/social
+
+# Preview page
+preview:
+    title: Preview Social

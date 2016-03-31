@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Theme
+
+# Model Form Field configuration
+form: $/smony/home/models/theme/fields.yaml
+
+# Model Class name
+modelClass: Smony\Home\Models\Theme
+
+# Default redirect location
+defaultRedirect: smony/home/theme
+
+# Create page
+create:
+    title: Create Theme
+    redirect: smony/home/theme/update/:id
+    redirectClose: smony/home/theme
+
+# Update page
+update:
+    title: Edit Theme
+    redirect: smony/home/theme
+    redirectClose: smony/home/theme
+
+# Preview page
+preview:
+    title: Preview Theme

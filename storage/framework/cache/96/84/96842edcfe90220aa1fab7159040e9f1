@@ -1,0 +1,23 @@
+1456767768s:715:"a:2:{s:5:"mtime";i:1456479735;s:7:"content";s:661:"<div class="row if_you" style="margin-right: 0px;  margin-left: 0px;">
+    <span class="indent"></span>
+    <div class="col-xs-hidden col-md-1"></div>
+
+    {% for item in item.getItems %}
+        <div class="col-xs-12 col-md-4">
+
+            <p class="big_if_you">{{ item.title }}</p>
+            <p class="middle_if_you">{{ item.meta }}</p>
+
+            <span class="indent"></span>
+
+            <p class="small_if_you">{{ item.description|striptags }}</p>
+
+            <span class="indent"></span>
+        </div>
+
+        <div class="col-xs-hidden col-md-2"></div>
+    {% endfor %}
+
+
+    <div class="col-xs-hidden col-md-1"></div>
+</div>";}";
